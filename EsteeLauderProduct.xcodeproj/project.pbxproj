@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA2B24EF2899FBD80058EF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B24EE2899FBD80058EF8F /* AppDelegate.swift */; };
+		CA2B24F12899FBD80058EF8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B24F02899FBD80058EF8F /* SceneDelegate.swift */; };
+		CA2B24F32899FBD80058EF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B24F22899FBD80058EF8F /* ViewController.swift */; };
+		CA2B24F62899FBD80058EF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2B24F42899FBD80058EF8F /* Main.storyboard */; };
+		CA2B24F82899FBD90058EF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2B24F72899FBD90058EF8F /* Assets.xcassets */; };
+		CA2B24FB2899FBD90058EF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2B24F92899FBD90058EF8F /* LaunchScreen.storyboard */; };
+		CA2B25062899FBDA0058EF8F /* EsteeLauderProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B25052899FBDA0058EF8F /* EsteeLauderProductTests.swift */; };
+		CA2B25102899FBDA0058EF8F /* EsteeLauderProductUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B250F2899FBDA0058EF8F /* EsteeLauderProductUITests.swift */; };
+		CA2B25122899FBDA0058EF8F /* EsteeLauderProductUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B25112899FBDA0058EF8F /* EsteeLauderProductUITestsLaunchTests.swift */; };
+		CA2B251F2899FCCE0058EF8F /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B251E2899FCCE0058EF8F /* line.png */; };
+		CA2B252F2899FE130058EF8F /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25202899FE130058EF8F /* 6.jpg */; };
+		CA2B25302899FE130058EF8F /* 5 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25212899FE130058EF8F /* 5 (1).jpg */; };
+		CA2B25312899FE130058EF8F /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25222899FE130058EF8F /* 8.jpg */; };
+		CA2B25322899FE130058EF8F /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25232899FE130058EF8F /* 7.jpg */; };
+		CA2B25332899FE130058EF8F /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25242899FE130058EF8F /* 11.jpg */; };
+		CA2B25342899FE130058EF8F /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25252899FE130058EF8F /* 2.jpg */; };
+		CA2B25352899FE130058EF8F /* 4 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25262899FE130058EF8F /* 4 (1).jpg */; };
+		CA2B25362899FE130058EF8F /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25272899FE130058EF8F /* 5.jpg */; };
+		CA2B25372899FE130058EF8F /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25282899FE130058EF8F /* 9.jpg */; };
+		CA2B25382899FE130058EF8F /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B25292899FE130058EF8F /* 4.jpg */; };
+		CA2B25392899FE130058EF8F /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B252A2899FE130058EF8F /* 0.jpg */; };
+		CA2B253A2899FE130058EF8F /* 6 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B252B2899FE130058EF8F /* 6 (1).jpg */; };
+		CA2B253B2899FE130058EF8F /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B252C2899FE130058EF8F /* 10.jpg */; };
+		CA2B253C2899FE130058EF8F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B252D2899FE130058EF8F /* 1.jpg */; };
+		CA2B253D2899FE130058EF8F /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B252E2899FE130058EF8F /* 3.jpg */; };
+		CA2B2543289B580D0058EF8F /* line1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2542289B580D0058EF8F /* line1.png */; };
+		CA2B2545289B58590058EF8F /* line0.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2544289B58590058EF8F /* line0.png */; };
+		CA2B2547289B5FD30058EF8F /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2B2546289B5FD30058EF8F /* scrollViewController.swift */; };
+		CA2B2555289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.29 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2548289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.29 PM.png */; };
+		CA2B2556289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.57 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2549289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.57 PM.png */; };
+		CA2B2557289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.53 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B254A289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.53 PM.png */; };
+		CA2B2558289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.08 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B254B289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.08 PM.png */; };
+		CA2B2559289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B254C289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.04 PM.png */; };
+		CA2B255A289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B254D289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.12 PM.png */; };
+		CA2B255B289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.44 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B254E289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.44 PM.png */; };
+		CA2B255C289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B254F289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.36 PM.png */; };
+		CA2B255D289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.14 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2550289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.14 PM.png */; };
+		CA2B255E289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2551289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.01 PM.png */; };
+		CA2B255F289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2552289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.25 PM.png */; };
+		CA2B2560289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.33 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2553289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.33 PM.png */; };
+		CA2B2561289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.49 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2554289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.49 PM.png */; };
+		CA2B2563289B77E40058EF8F /* Screen Shot 2022-08-03 at 11.43.08 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2562289B77E40058EF8F /* Screen Shot 2022-08-03 at 11.43.08 PM.png */; };
+		CA2B2567289B7A780058EF8F /* 5 (2).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2564289B7A780058EF8F /* 5 (2).jpg */; };
+		CA2B2568289B7A780058EF8F /* 3 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2565289B7A780058EF8F /* 3 (1).jpg */; };
+		CA2B2569289B7A780058EF8F /* 10 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2566289B7A780058EF8F /* 10 (1).jpg */; };
+		CA2B256B289C17630058EF8F /* Screen Shot 2022-08-04 at 11.03.22 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B256A289C17630058EF8F /* Screen Shot 2022-08-04 at 11.03.22 AM.png */; };
+		CA2B256D289C18BA0058EF8F /* Screen Shot 2022-08-04 at 11.09.25 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B256C289C18BA0058EF8F /* Screen Shot 2022-08-04 at 11.09.25 AM.png */; };
+		CA2B2571289C1A3D0058EF8F /* Screen Shot 2022-08-04 at 11.15.57 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2B2570289C1A3D0058EF8F /* Screen Shot 2022-08-04 at 11.15.57 AM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA2B25022899FBDA0058EF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2B24E32899FBD80058EF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2B24EA2899FBD80058EF8F;
+			remoteInfo = EsteeLauderProduct;
+		};
+		CA2B250C2899FBDA0058EF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2B24E32899FBD80058EF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2B24EA2899FBD80058EF8F;
+			remoteInfo = EsteeLauderProduct;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA2B24EB2899FBD80058EF8F /* EsteeLauderProduct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsteeLauderProduct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2B24EE2899FBD80058EF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA2B24F02899FBD80058EF8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA2B24F22899FBD80058EF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA2B24F52899FBD80058EF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA2B24F72899FBD90058EF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA2B24FA2899FBD90058EF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA2B24FC2899FBD90058EF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2B25012899FBDA0058EF8F /* EsteeLauderProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauderProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2B25052899FBDA0058EF8F /* EsteeLauderProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderProductTests.swift; sourceTree = "<group>"; };
+		CA2B250B2899FBDA0058EF8F /* EsteeLauderProductUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsteeLauderProductUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2B250F2899FBDA0058EF8F /* EsteeLauderProductUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderProductUITests.swift; sourceTree = "<group>"; };
+		CA2B25112899FBDA0058EF8F /* EsteeLauderProductUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsteeLauderProductUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA2B251E2899FCCE0058EF8F /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		CA2B25202899FE130058EF8F /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		CA2B25212899FE130058EF8F /* 5 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5 (1).jpg"; sourceTree = "<group>"; };
+		CA2B25222899FE130058EF8F /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		CA2B25232899FE130058EF8F /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		CA2B25242899FE130058EF8F /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		CA2B25252899FE130058EF8F /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CA2B25262899FE130058EF8F /* 4 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4 (1).jpg"; sourceTree = "<group>"; };
+		CA2B25272899FE130058EF8F /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		CA2B25282899FE130058EF8F /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		CA2B25292899FE130058EF8F /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CA2B252A2899FE130058EF8F /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		CA2B252B2899FE130058EF8F /* 6 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6 (1).jpg"; sourceTree = "<group>"; };
+		CA2B252C2899FE130058EF8F /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		CA2B252D2899FE130058EF8F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CA2B252E2899FE130058EF8F /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CA2B2542289B580D0058EF8F /* line1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line1.png; sourceTree = "<group>"; };
+		CA2B2544289B58590058EF8F /* line0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line0.png; sourceTree = "<group>"; };
+		CA2B2546289B5FD30058EF8F /* scrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
+		CA2B2548289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.29 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.29 PM.png"; sourceTree = "<group>"; };
+		CA2B2549289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.57 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.43.57 PM.png"; sourceTree = "<group>"; };
+		CA2B254A289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.53 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.43.53 PM.png"; sourceTree = "<group>"; };
+		CA2B254B289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.08 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.08 PM.png"; sourceTree = "<group>"; };
+		CA2B254C289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.04 PM.png"; sourceTree = "<group>"; };
+		CA2B254D289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.12 PM.png"; sourceTree = "<group>"; };
+		CA2B254E289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.44 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.43.44 PM.png"; sourceTree = "<group>"; };
+		CA2B254F289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.36 PM.png"; sourceTree = "<group>"; };
+		CA2B2550289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.14 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.14 PM.png"; sourceTree = "<group>"; };
+		CA2B2551289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.01 PM.png"; sourceTree = "<group>"; };
+		CA2B2552289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.25 PM.png"; sourceTree = "<group>"; };
+		CA2B2553289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.44.33 PM.png"; sourceTree = "<group>"; };
+		CA2B2554289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.49 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 10.43.49 PM.png"; sourceTree = "<group>"; };
+		CA2B2562289B77E40058EF8F /* Screen Shot 2022-08-03 at 11.43.08 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-03 at 11.43.08 PM.png"; sourceTree = "<group>"; };
+		CA2B2564289B7A780058EF8F /* 5 (2).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5 (2).jpg"; sourceTree = "<group>"; };
+		CA2B2565289B7A780058EF8F /* 3 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3 (1).jpg"; sourceTree = "<group>"; };
+		CA2B2566289B7A780058EF8F /* 10 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 (1).jpg"; sourceTree = "<group>"; };
+		CA2B256A289C17630058EF8F /* Screen Shot 2022-08-04 at 11.03.22 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-04 at 11.03.22 AM.png"; sourceTree = "<group>"; };
+		CA2B256C289C18BA0058EF8F /* Screen Shot 2022-08-04 at 11.09.25 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-04 at 11.09.25 AM.png"; sourceTree = "<group>"; };
+		CA2B2570289C1A3D0058EF8F /* Screen Shot 2022-08-04 at 11.15.57 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2022-08-04 at 11.15.57 AM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2B24E82899FBD80058EF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2B24FE2899FBDA0058EF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2B25082899FBDA0058EF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA2B24E22899FBD80058EF8F = {
+			isa = PBXGroup;
+			children = (
+				CA2B24ED2899FBD80058EF8F /* EsteeLauderProduct */,
+				CA2B25042899FBDA0058EF8F /* EsteeLauderProductTests */,
+				CA2B250E2899FBDA0058EF8F /* EsteeLauderProductUITests */,
+				CA2B24EC2899FBD80058EF8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA2B24EC2899FBD80058EF8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2B24EB2899FBD80058EF8F /* EsteeLauderProduct.app */,
+				CA2B25012899FBDA0058EF8F /* EsteeLauderProductTests.xctest */,
+				CA2B250B2899FBDA0058EF8F /* EsteeLauderProductUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2B24ED2899FBD80058EF8F /* EsteeLauderProduct */ = {
+			isa = PBXGroup;
+			children = (
+				CA2B24EE2899FBD80058EF8F /* AppDelegate.swift */,
+				CA2B24F02899FBD80058EF8F /* SceneDelegate.swift */,
+				CA2B24F22899FBD80058EF8F /* ViewController.swift */,
+				CA2B24F42899FBD80058EF8F /* Main.storyboard */,
+				CA2B2546289B5FD30058EF8F /* scrollViewController.swift */,
+				CA2B24F72899FBD90058EF8F /* Assets.xcassets */,
+				CA2B24F92899FBD90058EF8F /* LaunchScreen.storyboard */,
+				CA2B24FC2899FBD90058EF8F /* Info.plist */,
+				CA2B256C289C18BA0058EF8F /* Screen Shot 2022-08-04 at 11.09.25 AM.png */,
+				CA2B256A289C17630058EF8F /* Screen Shot 2022-08-04 at 11.03.22 AM.png */,
+				CA2B2565289B7A780058EF8F /* 3 (1).jpg */,
+				CA2B2564289B7A780058EF8F /* 5 (2).jpg */,
+				CA2B2566289B7A780058EF8F /* 10 (1).jpg */,
+				CA2B2542289B580D0058EF8F /* line1.png */,
+				CA2B252A2899FE130058EF8F /* 0.jpg */,
+				CA2B252D2899FE130058EF8F /* 1.jpg */,
+				CA2B25252899FE130058EF8F /* 2.jpg */,
+				CA2B252E2899FE130058EF8F /* 3.jpg */,
+				CA2B25262899FE130058EF8F /* 4 (1).jpg */,
+				CA2B2570289C1A3D0058EF8F /* Screen Shot 2022-08-04 at 11.15.57 AM.png */,
+				CA2B25292899FE130058EF8F /* 4.jpg */,
+				CA2B25212899FE130058EF8F /* 5 (1).jpg */,
+				CA2B25272899FE130058EF8F /* 5.jpg */,
+				CA2B252B2899FE130058EF8F /* 6 (1).jpg */,
+				CA2B25202899FE130058EF8F /* 6.jpg */,
+				CA2B2562289B77E40058EF8F /* Screen Shot 2022-08-03 at 11.43.08 PM.png */,
+				CA2B25232899FE130058EF8F /* 7.jpg */,
+				CA2B25222899FE130058EF8F /* 8.jpg */,
+				CA2B25282899FE130058EF8F /* 9.jpg */,
+				CA2B252C2899FE130058EF8F /* 10.jpg */,
+				CA2B25242899FE130058EF8F /* 11.jpg */,
+				CA2B251E2899FCCE0058EF8F /* line.png */,
+				CA2B2544289B58590058EF8F /* line0.png */,
+				CA2B254E289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.44 PM.png */,
+				CA2B2554289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.49 PM.png */,
+				CA2B254A289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.53 PM.png */,
+				CA2B2549289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.57 PM.png */,
+				CA2B2551289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.01 PM.png */,
+				CA2B254C289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.04 PM.png */,
+				CA2B254B289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.08 PM.png */,
+				CA2B254D289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.12 PM.png */,
+				CA2B2550289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.14 PM.png */,
+				CA2B2552289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.25 PM.png */,
+				CA2B2548289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.29 PM.png */,
+				CA2B2553289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.33 PM.png */,
+				CA2B254F289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.36 PM.png */,
+			);
+			path = EsteeLauderProduct;
+			sourceTree = "<group>";
+		};
+		CA2B25042899FBDA0058EF8F /* EsteeLauderProductTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2B25052899FBDA0058EF8F /* EsteeLauderProductTests.swift */,
+			);
+			path = EsteeLauderProductTests;
+			sourceTree = "<group>";
+		};
+		CA2B250E2899FBDA0058EF8F /* EsteeLauderProductUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2B250F2899FBDA0058EF8F /* EsteeLauderProductUITests.swift */,
+				CA2B25112899FBDA0058EF8F /* EsteeLauderProductUITestsLaunchTests.swift */,
+			);
+			path = EsteeLauderProductUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2B24EA2899FBD80058EF8F /* EsteeLauderProduct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2B25152899FBDA0058EF8F /* Build configuration list for PBXNativeTarget "EsteeLauderProduct" */;
+			buildPhases = (
+				CA2B24E72899FBD80058EF8F /* Sources */,
+				CA2B24E82899FBD80058EF8F /* Frameworks */,
+				CA2B24E92899FBD80058EF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsteeLauderProduct;
+			productName = EsteeLauderProduct;
+			productReference = CA2B24EB2899FBD80058EF8F /* EsteeLauderProduct.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA2B25002899FBDA0058EF8F /* EsteeLauderProductTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2B25182899FBDA0058EF8F /* Build configuration list for PBXNativeTarget "EsteeLauderProductTests" */;
+			buildPhases = (
+				CA2B24FD2899FBDA0058EF8F /* Sources */,
+				CA2B24FE2899FBDA0058EF8F /* Frameworks */,
+				CA2B24FF2899FBDA0058EF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2B25032899FBDA0058EF8F /* PBXTargetDependency */,
+			);
+			name = EsteeLauderProductTests;
+			productName = EsteeLauderProductTests;
+			productReference = CA2B25012899FBDA0058EF8F /* EsteeLauderProductTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA2B250A2899FBDA0058EF8F /* EsteeLauderProductUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2B251B2899FBDA0058EF8F /* Build configuration list for PBXNativeTarget "EsteeLauderProductUITests" */;
+			buildPhases = (
+				CA2B25072899FBDA0058EF8F /* Sources */,
+				CA2B25082899FBDA0058EF8F /* Frameworks */,
+				CA2B25092899FBDA0058EF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2B250D2899FBDA0058EF8F /* PBXTargetDependency */,
+			);
+			name = EsteeLauderProductUITests;
+			productName = EsteeLauderProductUITests;
+			productReference = CA2B250B2899FBDA0058EF8F /* EsteeLauderProductUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA2B24E32899FBD80058EF8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CA2B24EA2899FBD80058EF8F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CA2B25002899FBDA0058EF8F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CA2B24EA2899FBD80058EF8F;
+					};
+					CA2B250A2899FBDA0058EF8F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CA2B24EA2899FBD80058EF8F;
+					};
+				};
+			};
+			buildConfigurationList = CA2B24E62899FBD80058EF8F /* Build configuration list for PBXProject "EsteeLauderProduct" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA2B24E22899FBD80058EF8F;
+			productRefGroup = CA2B24EC2899FBD80058EF8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2B24EA2899FBD80058EF8F /* EsteeLauderProduct */,
+				CA2B25002899FBDA0058EF8F /* EsteeLauderProductTests */,
+				CA2B250A2899FBDA0058EF8F /* EsteeLauderProductUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2B24E92899FBD80058EF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2B2559289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.04 PM.png in Resources */,
+				CA2B253A2899FE130058EF8F /* 6 (1).jpg in Resources */,
+				CA2B2563289B77E40058EF8F /* Screen Shot 2022-08-03 at 11.43.08 PM.png in Resources */,
+				CA2B2568289B7A780058EF8F /* 3 (1).jpg in Resources */,
+				CA2B2555289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.29 PM.png in Resources */,
+				CA2B255F289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.25 PM.png in Resources */,
+				CA2B25372899FE130058EF8F /* 9.jpg in Resources */,
+				CA2B24FB2899FBD90058EF8F /* LaunchScreen.storyboard in Resources */,
+				CA2B2569289B7A780058EF8F /* 10 (1).jpg in Resources */,
+				CA2B25302899FE130058EF8F /* 5 (1).jpg in Resources */,
+				CA2B25352899FE130058EF8F /* 4 (1).jpg in Resources */,
+				CA2B2545289B58590058EF8F /* line0.png in Resources */,
+				CA2B25342899FE130058EF8F /* 2.jpg in Resources */,
+				CA2B2560289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.33 PM.png in Resources */,
+				CA2B24F82899FBD90058EF8F /* Assets.xcassets in Resources */,
+				CA2B25392899FE130058EF8F /* 0.jpg in Resources */,
+				CA2B25332899FE130058EF8F /* 11.jpg in Resources */,
+				CA2B2557289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.53 PM.png in Resources */,
+				CA2B2571289C1A3D0058EF8F /* Screen Shot 2022-08-04 at 11.15.57 AM.png in Resources */,
+				CA2B2567289B7A780058EF8F /* 5 (2).jpg in Resources */,
+				CA2B255C289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.36 PM.png in Resources */,
+				CA2B2558289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.08 PM.png in Resources */,
+				CA2B2543289B580D0058EF8F /* line1.png in Resources */,
+				CA2B255E289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.01 PM.png in Resources */,
+				CA2B256D289C18BA0058EF8F /* Screen Shot 2022-08-04 at 11.09.25 AM.png in Resources */,
+				CA2B25322899FE130058EF8F /* 7.jpg in Resources */,
+				CA2B25382899FE130058EF8F /* 4.jpg in Resources */,
+				CA2B256B289C17630058EF8F /* Screen Shot 2022-08-04 at 11.03.22 AM.png in Resources */,
+				CA2B24F62899FBD80058EF8F /* Main.storyboard in Resources */,
+				CA2B251F2899FCCE0058EF8F /* line.png in Resources */,
+				CA2B253B2899FE130058EF8F /* 10.jpg in Resources */,
+				CA2B2561289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.49 PM.png in Resources */,
+				CA2B25362899FE130058EF8F /* 5.jpg in Resources */,
+				CA2B253C2899FE130058EF8F /* 1.jpg in Resources */,
+				CA2B252F2899FE130058EF8F /* 6.jpg in Resources */,
+				CA2B255B289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.44 PM.png in Resources */,
+				CA2B255A289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.12 PM.png in Resources */,
+				CA2B253D2899FE130058EF8F /* 3.jpg in Resources */,
+				CA2B2556289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.43.57 PM.png in Resources */,
+				CA2B25312899FE130058EF8F /* 8.jpg in Resources */,
+				CA2B255D289B6A4D0058EF8F /* Screen Shot 2022-08-03 at 10.44.14 PM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2B24FF2899FBDA0058EF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2B25092899FBDA0058EF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2B24E72899FBD80058EF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2B24F32899FBD80058EF8F /* ViewController.swift in Sources */,
+				CA2B24EF2899FBD80058EF8F /* AppDelegate.swift in Sources */,
+				CA2B24F12899FBD80058EF8F /* SceneDelegate.swift in Sources */,
+				CA2B2547289B5FD30058EF8F /* scrollViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2B24FD2899FBDA0058EF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2B25062899FBDA0058EF8F /* EsteeLauderProductTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2B25072899FBDA0058EF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2B25122899FBDA0058EF8F /* EsteeLauderProductUITestsLaunchTests.swift in Sources */,
+				CA2B25102899FBDA0058EF8F /* EsteeLauderProductUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA2B25032899FBDA0058EF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2B24EA2899FBD80058EF8F /* EsteeLauderProduct */;
+			targetProxy = CA2B25022899FBDA0058EF8F /* PBXContainerItemProxy */;
+		};
+		CA2B250D2899FBDA0058EF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2B24EA2899FBD80058EF8F /* EsteeLauderProduct */;
+			targetProxy = CA2B250C2899FBDA0058EF8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA2B24F42899FBD80058EF8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2B24F52899FBD80058EF8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA2B24F92899FBD90058EF8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2B24FA2899FBD90058EF8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA2B25132899FBDA0058EF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA2B25142899FBDA0058EF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2B25162899FBDA0058EF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauderProduct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhani.EsteeLauderProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA2B25172899FBDA0058EF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauderProduct/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhani.EsteeLauderProduct;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA2B25192899FBDA0058EF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhani.EsteeLauderProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EsteeLauderProduct.app/EsteeLauderProduct";
+			};
+			name = Debug;
+		};
+		CA2B251A2899FBDA0058EF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhani.EsteeLauderProductTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EsteeLauderProduct.app/EsteeLauderProduct";
+			};
+			name = Release;
+		};
+		CA2B251C2899FBDA0058EF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhani.EsteeLauderProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EsteeLauderProduct;
+			};
+			name = Debug;
+		};
+		CA2B251D2899FBDA0058EF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhani.EsteeLauderProductUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EsteeLauderProduct;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA2B24E62899FBD80058EF8F /* Build configuration list for PBXProject "EsteeLauderProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2B25132899FBDA0058EF8F /* Debug */,
+				CA2B25142899FBDA0058EF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2B25152899FBDA0058EF8F /* Build configuration list for PBXNativeTarget "EsteeLauderProduct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2B25162899FBDA0058EF8F /* Debug */,
+				CA2B25172899FBDA0058EF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2B25182899FBDA0058EF8F /* Build configuration list for PBXNativeTarget "EsteeLauderProductTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2B25192899FBDA0058EF8F /* Debug */,
+				CA2B251A2899FBDA0058EF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2B251B2899FBDA0058EF8F /* Build configuration list for PBXNativeTarget "EsteeLauderProductUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2B251C2899FBDA0058EF8F /* Debug */,
+				CA2B251D2899FBDA0058EF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA2B24E32899FBD80058EF8F /* Project object */;
+}
